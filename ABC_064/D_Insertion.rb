@@ -1,3 +1,5 @@
+# AC
+
 n = gets.chomp.to_i
 brackets = gets.chomp
 partical_brackets = brackets
