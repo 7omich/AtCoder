@@ -1,3 +1,4 @@
+# AC
 n = gets.chomp.to_i
 d, x = gets.chomp.split(' ').map(&:to_i)
 
