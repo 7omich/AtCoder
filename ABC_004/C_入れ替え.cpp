@@ -1,3 +1,5 @@
+// AC
+
 #include <iostream>
 #include <algorithm>
 #define REP(i,n) for(int i=0; i<n; i++)
@@ -18,11 +20,11 @@ void rotate(int arr[], int n) {
 }
 
 int main() {
-	cin.tie(0);
-	ios::sync_with_stdio(false);
+    cin.tie(0);
+    ios::sync_with_stdio(false);
 
-	int n;
-	cin >> n;
+    int n;
+    cin >> n;
 
     int rot_times = n / 5;
     int rem = n % 5;
